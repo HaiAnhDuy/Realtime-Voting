@@ -1,12 +1,10 @@
-# Stock Price Alert System
+# Hệ Thống Bầu Cử Realtime
 
 ## Giới thiệu
-Hệ thống này cho phép người dùng thiết lập cảnh báo giá cổ phiếu dựa trên dữ liệu thời gian thực. Khi giá cổ phiếu đạt ngưỡng do người dùng thiết lập, hệ thống sẽ gửi email cảnh báo. Dự án sử dụng **Python**, **Kafka**, và **Spark** để xử lý dữ liệu và **Docker** để quản lý môi trường triển khai.
+Kho lưu trữ này chứa mã cho hệ thống bỏ phiếu bầu cử theo thời gian thực. Hệ thống được xây dựng bằng **Python**, **Kafka**, **Spark Streaming**, **Postgres** và **Streamlit**. Hệ thống được xây dựng bằng **Docker Compose** để dễ dàng tạo các dịch vụ cần thiết trong các container Docker.
 
-### Tính năng
-- **Theo dõi cổ phiếu thời gian thực:** Xử lý dữ liệu streaming từ nguồn dữ liệu chứng khoán.
-- **Thiết lập ngưỡng giá:** Người dùng có thể thiết lập ngưỡng giá cho từng mã cổ phiếu.
-- **Cảnh báo qua email:** Gửi cảnh báo tự động khi cổ phiếu đạt giá yêu cầu.
+## Kiến trúc
+![image](https://github.com/user-attachments/assets/d34bdd1a-eea5-4d11-b819-914a10e8d1ad)
 
 ## Ảnh chụp màn hình (nếu có)
 ![Stock Alert Dashboard](images/dashboard.png)
