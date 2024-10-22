@@ -15,16 +15,25 @@ Kho lưu trữ này chứa mã cho hệ thống bỏ phiếu bầu cử theo th�
 - **spark-streaming.py**: Đây là tập lệnh Python chứa logic để sử dụng các phiếu bầu từ chủ đề Kafka (**votes_topic**), làm giàu dữ liệu từ postgres và tổng hợp các phiếu bầu và tạo dữ liệu cho các chủ đề cụ thể trên Kafka.
 - **streamlit-app.py**: Đây là tập lệnh Python chứa logic để sử dụng dữ liệu bỏ phiếu tổng hợp từ chủ đề Kafka cũng như postgres và hiển thị dữ liệu bỏ phiếu theo thời gian thực bằng **Streamlit**.
 
-### Yêu cầu hệ thống
-Để chạy dự án này, bạn cần cài đặt các phần mềm sau:
-- **Python** 3.9+
-- **Docker**
-- **Apache Kafka**
-- **Spark**
+## Thiết lập hệ thống
+Tệp Docker Compose này cho phép bạn dễ dàng khởi chạy ứng dụng Zookkeeper, Kafka và Postgres trong các container Docker.
 
-### Hướng dẫn cài đặt
+### Ảnh chụp
 
-1. **Clone repository** về máy:
-   ```bash
-   git clone https://github.com/username/stock-price-alert.git
-   cd stock-price-alert
+1. **Thông tin ứng cử viên và đảng phái**:
+ 
+![image](https://github.com/user-attachments/assets/294bebc8-7616-4544-ac50-3f0dccf7c29e)
+
+2. **Người bỏ phiếu**:
+
+![image](https://github.com/user-attachments/assets/639ac5d7-baf5-4a5d-ae2b-cfec0f0cb2fd)
+
+3. **Bỏ phiếu**
+
+![image](https://github.com/user-attachments/assets/d49f3813-469a-4dd9-8e9b-ceb505a8a987)
+
+4. **Dashboard**
+
+![image](https://github.com/user-attachments/assets/568c67ab-dfc0-488e-a909-ac4881295493)
+
+
